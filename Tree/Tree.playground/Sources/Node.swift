@@ -1,7 +1,8 @@
 import Foundation
 
 public
-class Node <T> {
+class Node <T>{
+    
     public var left: Node?
     public var right: Node?
     public var data: T
@@ -11,3 +12,5 @@ class Node <T> {
     }
     
 }
+
+
